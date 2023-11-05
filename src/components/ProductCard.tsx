@@ -44,12 +44,12 @@ const ProductCard = ({ id, img, category, title, price }: propsType) => {
           <AiOutlineStar />
           <p className="text-gray-600 text-[14px] ml-2">(3 reviews)</p>
         </div>
-        <div className="flex justify-between items-center mt-4">
+        <div className="flex justify-between items-center mb-0 pb-0 mt-4 bottom-[5px]">
           <h2 className="font-medium text-[#343499] text-xl bottom-0">
             ${price}
           </h2>
           <div
-            className="flex gap-2 items-center bg-pink bottom-0 text-white px-4 py-2 cursor-pointer bg-[#343499]"
+            className="flex gap-2 items-center bg-pink bottom-[5px] text-white px-4 py-2 cursor-pointer bg-[#343499]"
             onClick={addProductToCart}
           >
             <AiOutlineShoppingCart /> Add to cart

@@ -4,7 +4,7 @@ const Banner = () => {
   return (
     <div className="container mt-32">
       <div className="grid lg:grid-cols-[66%,34%] gap-4 pr-[15px]">
-        <div className="h-[200px] md:h-[260px]  rounded-xl p-8 md:p-16">
+        <div className="h-[200px] md:h-[260px] bg-[url(https://thebravecoders-ecommerce-electronic.netlify.app/product-banner-1.jpg)]  rounded-xl p-8 md:p-16">
           <p className="text-[#021d35] text-xl font-medium">
             sale 20% off all stores
           </p>
@@ -15,7 +15,7 @@ const Banner = () => {
             Shop Now
           </a>
         </div>
-        <div className="h-[260px] bg-right rounded-xl hidden lg:block"></div>
+        <div className="h-[260px] bg-right bg-[url(https://thebravecoders-ecommerce-electronic.netlify.app/product-banner-2.jpg)]  rounded-xl hidden lg:block"></div>
       </div>
     </div>
   );
